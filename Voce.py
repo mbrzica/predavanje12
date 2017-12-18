@@ -96,6 +96,9 @@ if __name__ == "__main__":
             selected.less_kol(kol)
             list_all_warehouse(voce)
 
+        else:
+            print "Niste unjeli odgovarajuce parametre!\n"
+
         want_more = raw_input("> Novi unos? [da/ne] -> ")
 
         if want_more == "ne":
